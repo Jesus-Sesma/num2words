@@ -355,7 +355,7 @@ class Num2Word_ES(Num2Word_EU):
     def to_currency(self, val, currency='EUR', cents=True, separator=' con',
                     adjective=False):
         result = super(Num2Word_ES, self).to_currency(
-            val, currency=currency, cents=cents, separator=separator,
+            float(val), currency=currency, cents=cents, separator=separator,
             adjective=adjective)
         # Handle exception: In Spanish it's "un euro" and not "uno euro",
         # except in these currencies, where it's "una": leona, corona,
@@ -405,4 +405,39 @@ class Num2Word_ES(Num2Word_EU):
         # join back "dollars" part with "cents" part
         result = (separator + " ").join(list_result)
 
+        result = self._handle_million_currency(val, currency, result)
+
         return result
+
+
+    def _handle_million_currency(
+        self, value: float, currency: str, words: str
+    ) -> str:
+        """Handle special case for couting numbers above million.
+
+        Parameters
+        ----------
+        value: float
+            The numeric value.
+        currency: str
+            A string of the ISO-4217 currency code.
+        words: str
+            A string of the representation into words of the numeric value.
+
+        If all the digits below million are zeroes, we use `de` (of)
+        preposition before the currency name.
+        
+        e.g.:
+            - 1.0000.000: un millón `de` euros.
+            - 14.000.000: catorce millones `de` euros.
+            - 112.030.010: ciento doce millones trenta mil diez `` euros.
+            - 1.000.000.000: mil millones `de` euros.
+            - 1.000.000.000.000 un billón `de` euros.
+        
+        """
+        if value >= 1e6 and not value % 1e6:
+            currency_form = self.CURRENCY_FORMS[currency][0][1]  # plural
+            before, after  = words.split(currency_form, 1)
+            return f"{before[:-1]} de {currency_form} {after[1:]}"
+        
+        return words

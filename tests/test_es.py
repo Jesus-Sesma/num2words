@@ -122,6 +122,10 @@ TEST_CASES_TO_CURRENCY = (
     (81.25, 'ochenta y un euros con veinticinco céntimos'),
     (350.90, 'trescientos cincuenta euros con noventa céntimos'),
     (100.00, 'cien euros con cero céntimos'),
+    (1e6, 'un millón de euros con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez euros con cero céntimos'),
+    (1e12, 'un billón de euros con cero céntimos'),
+    
 )
 
 TEST_CASES_TO_CURRENCY_ESP = (
@@ -134,6 +138,9 @@ TEST_CASES_TO_CURRENCY_ESP = (
     (81.25, 'ochenta y una pesetas con veinticinco céntimos'),
     (350.90, 'trescientas cincuenta pesetas con noventa céntimos'),
     (100.00, 'cien pesetas con cero céntimos'),
+    (1e6, 'un millón de pesetas con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez pesetas con cero céntimos'),
+    (1e12, 'un billón de pesetas con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_USD = (
@@ -145,6 +152,9 @@ TEST_CASES_TO_CURRENCY_USD = (
     (81.25, 'ochenta y un dólares con veinticinco centavos'),
     (350.90, 'trescientos cincuenta dólares con noventa centavos'),
     (100.00, 'cien dólares con cero centavos'),
+    (1e6, 'un millón de dólares con cero centavos'),
+    (12030010, 'doce millones treinta mil diez dólares con cero centavos'),
+    (1e12, 'un billón de dólares con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_PEN = (
@@ -156,6 +166,9 @@ TEST_CASES_TO_CURRENCY_PEN = (
     (81.25, 'ochenta y un soles con veinticinco céntimos'),
     (350.90, 'trescientos cincuenta soles con noventa céntimos'),
     (100.00, 'cien soles con cero céntimos'),
+    (1e6, 'un millón de soles con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez soles con cero céntimos'),
+    (1e12, 'un billón de soles con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_CRC = (
@@ -169,6 +182,9 @@ TEST_CASES_TO_CURRENCY_CRC = (
     (100.00, 'cien colones con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta colones con ochenta y tres centavos'),
+    (1e6, 'un millón de colones con cero centavos'),
+    (12030010, 'doce millones treinta mil diez colones con cero centavos'),
+    (1e12, 'un billón de colones con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_GBP = (
@@ -183,6 +199,9 @@ TEST_CASES_TO_CURRENCY_GBP = (
     (100.00, 'cien libras con cero peniques'),
     (4150.83,
         'cuatro mil ciento cincuenta libras con ochenta y tres peniques'),
+    (1e6, 'un millón de libras con cero peniques'),
+    (12030010, 'doce millones treinta mil diez libras con cero peniques'),
+    (1e12, 'un billón de libras con cero peniques'),
 )
 
 TEST_CASES_TO_CURRENCY_RUB = (
@@ -196,6 +215,9 @@ TEST_CASES_TO_CURRENCY_RUB = (
     (100.00, 'cien rublos con cero kopeykas'),
     (4150.83,
         'cuatro mil ciento cincuenta rublos con ochenta y tres kopeykas'),
+    (1e6, 'un millón de rublos con cero kopeykas'),
+    (12030010, 'doce millones treinta mil diez rublos con cero kopeykas'),
+    (1e12, 'un billón de rublos con cero kopeykas'),
 )
 
 TEST_CASES_TO_CURRENCY_SEK = (
@@ -222,6 +244,9 @@ TEST_CASES_TO_CURRENCY_NOK = (
     (100.00, 'cien coronas con cero øre'),
     (4150.83,
         'cuatro mil ciento cincuenta coronas con ochenta y tres øre'),
+    (1e6, 'un millón de coronas con cero øre'),
+    (12030010, 'doce millones treinta mil diez coronas con cero øre'),
+    (1e12, 'un billón de coronas con cero øre'),
 )
 
 TEST_CASES_TO_CURRENCY_PLN = (
@@ -235,6 +260,9 @@ TEST_CASES_TO_CURRENCY_PLN = (
     (100.00, 'cien zlotys con cero groszy'),
     (4150.83,
         'cuatro mil ciento cincuenta zlotys con ochenta y tres groszy'),
+    (1e6, 'un millón de zlotys con cero groszy'),
+    (12030010, 'doce millones treinta mil diez zlotys con cero groszy'),
+    (1e12, 'un billón de zlotys con cero groszy'),
 )
 
 TEST_CASES_TO_CURRENCY_MXN = (
@@ -248,6 +276,9 @@ TEST_CASES_TO_CURRENCY_MXN = (
     (100.00, 'cien pesos con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta pesos con ochenta y tres centavos'),
+    (1e6, 'un millón de pesos con cero centavos'),
+    (12030010, 'doce millones treinta mil diez pesos con cero centavos'),
+    (1e12, 'un billón de pesos con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_RON = (
@@ -261,6 +292,9 @@ TEST_CASES_TO_CURRENCY_RON = (
     (100.00, 'cien leus con cero bani'),
     (4150.83,
         'cuatro mil ciento cincuenta leus con ochenta y tres bani'),
+    (1e6, 'un millón de leus con cero bani'),
+    (12030010, 'doce millones treinta mil diez leus con cero bani'),
+    (1e12, 'un billón de leus con cero bani'),
 )
 
 TEST_CASES_TO_CURRENCY_INR = (
@@ -274,6 +308,9 @@ TEST_CASES_TO_CURRENCY_INR = (
     (100.00, 'cien rupias con cero paisas'),
     (4150.83,
         'cuatro mil ciento cincuenta rupias con ochenta y tres paisas'),
+    (1e6, 'un millón de rupias con cero paisas'),
+    (12030010, 'doce millones treinta mil diez rupias con cero paisas'),
+    (1e12, 'un billón de rupias con cero paisas'),
 )
 
 TEST_CASES_TO_CURRENCY_HUF = (
@@ -287,6 +324,9 @@ TEST_CASES_TO_CURRENCY_HUF = (
     (100.00, 'cien florines con cero fillér'),
     (4150.83,
         'cuatro mil ciento cincuenta florines con ochenta y tres fillér'),
+    (1e6, 'un millón de florines con cero fillér'),
+    (12030010, 'doce millones treinta mil diez florines con cero fillér'),
+    (1e12, 'un billón de florines con cero fillér'),
 )
 
 TEST_CASES_TO_CURRENCY_FRF = (
@@ -300,6 +340,9 @@ TEST_CASES_TO_CURRENCY_FRF = (
     (100.00, 'cien francos con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta francos con ochenta y tres céntimos'),
+    (1e6, 'un millón de francos con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez francos con cero céntimos'),
+    (1e12, 'un billón de francos con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_CNY = (
@@ -313,6 +356,9 @@ TEST_CASES_TO_CURRENCY_CNY = (
     (100.00, 'cien yuanes con cero jiaos'),
     (4150.83,
         'cuatro mil ciento cincuenta yuanes con ochenta y tres jiaos'),
+    (1e6, 'un millón de yuanes con cero jiaos'),
+    (12030010, 'doce millones treinta mil diez yuanes con cero jiaos'),
+    (1e12, 'un billón de yuanes con cero jiaos'),
 )
 
 TEST_CASES_TO_CURRENCY_CZK = (
@@ -326,6 +372,9 @@ TEST_CASES_TO_CURRENCY_CZK = (
     (100.00, 'cien coronas con cero haléř'),
     (4150.83,
         'cuatro mil ciento cincuenta coronas con ochenta y tres haléř'),
+    (1e6, 'un millón de coronas con cero haléř'),
+    (12030010, 'doce millones treinta mil diez coronas con cero haléř'),
+    (1e12, 'un billón de coronas con cero haléř'),
 )
 
 TEST_CASES_TO_CURRENCY_NIO = (
@@ -339,6 +388,9 @@ TEST_CASES_TO_CURRENCY_NIO = (
     (100.00, 'cien córdobas con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta córdobas con ochenta y tres centavos'),
+    (1e6, 'un millón de córdobas con cero centavos'),
+    (12030010, 'doce millones treinta mil diez córdobas con cero centavos'),
+    (1e12, 'un billón de córdobas con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_VES = (
@@ -352,6 +404,9 @@ TEST_CASES_TO_CURRENCY_VES = (
     (100.00, 'cien bolívares con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta bolívares con ochenta y tres céntimos'),
+    (1e6, 'un millón de bolívares con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez bolívares con cero céntimos'),
+    (1e12, 'un billón de bolívares con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_BRL = (
@@ -365,6 +420,9 @@ TEST_CASES_TO_CURRENCY_BRL = (
     (100.00, 'cien reales con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta reales con ochenta y tres centavos'),
+    (1e6, 'un millón de reales con cero centavos'),
+    (12030010, 'doce millones treinta mil diez reales con cero centavos'),
+    (1e12, 'un billón de reales con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_JPY = (
@@ -378,6 +436,9 @@ TEST_CASES_TO_CURRENCY_JPY = (
     (100.00, 'cien yenes con cero sen'),
     (4150.83,
         'cuatro mil ciento cincuenta yenes con ochenta y tres sen'),
+    (1e6, 'un millón de yenes con cero sen'),
+    (12030010, 'doce millones treinta mil diez yenes con cero sen'),
+    (1e12, 'un billón de yenes con cero sen'),
 )
 
 TEST_CASES_TO_CURRENCY_KRW = (
@@ -391,6 +452,9 @@ TEST_CASES_TO_CURRENCY_KRW = (
     (100.00, 'cien wones con cero jeon'),
     (4150.83,
         'cuatro mil ciento cincuenta wones con ochenta y tres jeon'),
+    (1e6, 'un millón de wones con cero jeon'),
+    (12030010, 'doce millones treinta mil diez wones con cero jeon'),
+    (1e12, 'un billón de wones con cero jeon'),
 )
 
 TEST_CASES_TO_CURRENCY_KPW = (
@@ -404,6 +468,9 @@ TEST_CASES_TO_CURRENCY_KPW = (
     (100.00, 'cien wones con cero chon'),
     (4150.83,
         'cuatro mil ciento cincuenta wones con ochenta y tres chon'),
+    (1e6, 'un millón de wones con cero chon'),
+    (12030010, 'doce millones treinta mil diez wones con cero chon'),
+    (1e12, 'un billón de wones con cero chon'),
 )
 
 TEST_CASES_TO_CURRENCY_TRY = (
@@ -417,6 +484,9 @@ TEST_CASES_TO_CURRENCY_TRY = (
     (100.00, 'cien liras con cero kuruş'),
     (4150.83,
         'cuatro mil ciento cincuenta liras con ochenta y tres kuruş'),
+    (1e6, 'un millón de liras con cero kuruş'),
+    (12030010, 'doce millones treinta mil diez liras con cero kuruş'),
+    (1e12, 'un billón de liras con cero kuruş'),
 )
 
 TEST_CASES_TO_CURRENCY_ZAR = (
@@ -430,6 +500,9 @@ TEST_CASES_TO_CURRENCY_ZAR = (
     (100.00, 'cien rands con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta rands con ochenta y tres céntimos'),
+    (1e6, 'un millón de rands con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez rands con cero céntimos'),
+    (1e12, 'un billón de rands con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_KZT = (
@@ -443,6 +516,9 @@ TEST_CASES_TO_CURRENCY_KZT = (
     (100.00, 'cien tenges con cero tïın'),
     (4150.83,
         'cuatro mil ciento cincuenta tenges con ochenta y tres tïın'),
+    (1e6, 'un millón de tenges con cero tïın'),
+    (12030010, 'doce millones treinta mil diez tenges con cero tïın'),
+    (1e12, 'un billón de tenges con cero tïın'),
 )
 
 TEST_CASES_TO_CURRENCY_UAH = (
@@ -456,6 +532,9 @@ TEST_CASES_TO_CURRENCY_UAH = (
     (100.00, 'cien hryvnias con cero kopiykas'),
     (4150.83,
         'cuatro mil ciento cincuenta hryvnias con ochenta y tres kopiykas'),
+    (1e6, 'un millón de hryvnias con cero kopiykas'),
+    (12030010, 'doce millones treinta mil diez hryvnias con cero kopiykas'),
+    (1e12, 'un billón de hryvnias con cero kopiykas'),
 )
 
 TEST_CASES_TO_CURRENCY_THB = (
@@ -469,6 +548,9 @@ TEST_CASES_TO_CURRENCY_THB = (
     (100.00, 'cien bahts con cero satang'),
     (4150.83,
         'cuatro mil ciento cincuenta bahts con ochenta y tres satang'),
+    (1e6, 'un millón de bahts con cero satang'),
+    (12030010, 'doce millones treinta mil diez bahts con cero satang'),
+    (1e12, 'un billón de bahts con cero satang'),
 )
 
 TEST_CASES_TO_CURRENCY_AED = (
@@ -482,6 +564,9 @@ TEST_CASES_TO_CURRENCY_AED = (
     (100.00, 'cien dirhams con cero fils'),
     (4150.83,
         'cuatro mil ciento cincuenta dirhams con ochenta y tres fils'),
+    (1e6, 'un millón de dirhams con cero fils'),
+    (12030010, 'doce millones treinta mil diez dirhams con cero fils'),
+    (1e12, 'un billón de dirhams con cero fils'),
 )
 
 TEST_CASES_TO_CURRENCY_AFN = (
@@ -495,6 +580,9 @@ TEST_CASES_TO_CURRENCY_AFN = (
     (100.00, 'cien afghanis con cero puls'),
     (4150.83,
         'cuatro mil ciento cincuenta afghanis con ochenta y tres puls'),
+    (1e6, 'un millón de afghanis con cero puls'),
+    (12030010, 'doce millones treinta mil diez afghanis con cero puls'),
+    (1e12, 'un billón de afghanis con cero puls'),
 )
 
 TEST_CASES_TO_CURRENCY_ALL = (
@@ -508,6 +596,9 @@ TEST_CASES_TO_CURRENCY_ALL = (
     (100.00, 'cien leke con cero qindarka'),
     (4150.83,
         'cuatro mil ciento cincuenta leke con ochenta y tres qindarka'),
+    (1e6, 'un millón de leke con cero qindarka'),
+    (12030010, 'doce millones treinta mil diez leke con cero qindarka'),
+    (1e12, 'un billón de leke con cero qindarka'),
 )
 
 TEST_CASES_TO_CURRENCY_AMD = (
@@ -521,6 +612,9 @@ TEST_CASES_TO_CURRENCY_AMD = (
     (100.00, 'cien drams con cero lumas'),
     (4150.83,
         'cuatro mil ciento cincuenta drams con ochenta y tres lumas'),
+    (1e6, 'un millón de drams con cero lumas'),
+    (12030010, 'doce millones treinta mil diez drams con cero lumas'),
+    (1e12, 'un billón de drams con cero lumas'),
 )
 
 TEST_CASES_TO_CURRENCY_ANG = (
@@ -534,6 +628,9 @@ TEST_CASES_TO_CURRENCY_ANG = (
     (100.00, 'cien florines con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta florines con ochenta y tres centavos'),
+    (1e6, 'un millón de florines con cero centavos'),
+    (12030010, 'doce millones treinta mil diez florines con cero centavos'),
+    (1e12, 'un billón de florines con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_AOA = (
@@ -547,6 +644,9 @@ TEST_CASES_TO_CURRENCY_AOA = (
     (100.00, 'cien kwanzas con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta kwanzas con ochenta y tres céntimos'),
+    (1e6, 'un millón de kwanzas con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez kwanzas con cero céntimos'),
+    (1e12, 'un billón de kwanzas con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_AWG = (
@@ -560,6 +660,9 @@ TEST_CASES_TO_CURRENCY_AWG = (
     (100.00, 'cien florines con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta florines con ochenta y tres centavos'),
+    (1e6, 'un millón de florines con cero centavos'),
+    (12030010, 'doce millones treinta mil diez florines con cero centavos'),
+    (1e12, 'un billón de florines con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_AZN = (
@@ -573,6 +676,9 @@ TEST_CASES_TO_CURRENCY_AZN = (
     (100.00, 'cien manat con cero qəpik'),
     (4150.83,
         'cuatro mil ciento cincuenta manat con ochenta y tres qəpik'),
+    (1e6, 'un millón de manat con cero qəpik'),
+    (12030010, 'doce millones treinta mil diez manat con cero qəpik'),
+    (1e12, 'un billón de manat con cero qəpik'),
 )
 
 TEST_CASES_TO_CURRENCY_BDT = (
@@ -586,6 +692,9 @@ TEST_CASES_TO_CURRENCY_BDT = (
     (100.00, 'cien takas con cero paisas'),
     (4150.83,
         'cuatro mil ciento cincuenta takas con ochenta y tres paisas'),
+    (1e6, 'un millón de takas con cero paisas'),
+    (12030010, 'doce millones treinta mil diez takas con cero paisas'),
+    (1e12, 'un billón de takas con cero paisas'),
 )
 
 TEST_CASES_TO_CURRENCY_BGN = (
@@ -599,6 +708,9 @@ TEST_CASES_TO_CURRENCY_BGN = (
     (100.00, 'cien leva con cero stotinki'),
     (4150.83,
         'cuatro mil ciento cincuenta leva con ochenta y tres stotinki'),
+    (1e6, 'un millón de leva con cero stotinki'),
+    (12030010, 'doce millones treinta mil diez leva con cero stotinki'),
+    (1e12, 'un billón de leva con cero stotinki'),
 )
 
 TEST_CASES_TO_CURRENCY_BHD = (
@@ -612,6 +724,9 @@ TEST_CASES_TO_CURRENCY_BHD = (
     (100.00, 'cien dinares con cero fils'),
     (4150.83,
         'cuatro mil ciento cincuenta dinares con ochenta y tres fils'),
+    (1e6, 'un millón de dinares con cero fils'),
+    (12030010, 'doce millones treinta mil diez dinares con cero fils'),
+    (1e12, 'un billón de dinares con cero fils'),
 )
 
 TEST_CASES_TO_CURRENCY_BOB = (
@@ -625,6 +740,9 @@ TEST_CASES_TO_CURRENCY_BOB = (
     (100.00, 'cien bolivianos con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta bolivianos con ochenta y tres centavos'),
+    (1e6, 'un millón de bolivianos con cero centavos'),
+    (12030010, 'doce millones treinta mil diez bolivianos con cero centavos'),
+    (1e12, 'un billón de bolivianos con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_BTN = (
@@ -638,6 +756,9 @@ TEST_CASES_TO_CURRENCY_BTN = (
     (100.00, 'cien ngultrum con cero chetrum'),
     (4150.83,
         'cuatro mil ciento cincuenta ngultrum con ochenta y tres chetrum'),
+    (1e6, 'un millón de ngultrum con cero chetrum'),
+    (12030010, 'doce millones treinta mil diez ngultrum con cero chetrum'),
+    (1e12, 'un billón de ngultrum con cero chetrum'),
 )
 
 TEST_CASES_TO_CURRENCY_BWP = (
@@ -651,6 +772,9 @@ TEST_CASES_TO_CURRENCY_BWP = (
     (100.00, 'cien pulas con cero thebes'),
     (4150.83,
         'cuatro mil ciento cincuenta pulas con ochenta y tres thebes'),
+    (1e6, 'un millón de pulas con cero thebes'),
+    (12030010, 'doce millones treinta mil diez pulas con cero thebes'),
+    (1e12, 'un billón de pulas con cero thebes'),
 )
 
 TEST_CASES_TO_CURRENCY_BYN = (
@@ -664,6 +788,9 @@ TEST_CASES_TO_CURRENCY_BYN = (
     (100.00, 'cien rublos con cero kópeks'),
     (4150.83,
         'cuatro mil ciento cincuenta rublos con ochenta y tres kópeks'),
+    (1e6, 'un millón de rublos con cero kópeks'),
+    (12030010, 'doce millones treinta mil diez rublos con cero kópeks'),
+    (1e12, 'un billón de rublos con cero kópeks'),
 )
 
 TEST_CASES_TO_CURRENCY_BYR = (
@@ -677,6 +804,9 @@ TEST_CASES_TO_CURRENCY_BYR = (
     (100.00, 'cien rublos con cero kópeks'),
     (4150.83,
         'cuatro mil ciento cincuenta rublos con ochenta y tres kópeks'),
+    (1e6, 'un millón de rublos con cero kópeks'),
+    (12030010, 'doce millones treinta mil diez rublos con cero kópeks'),
+    (1e12, 'un billón de rublos con cero kópeks'),
 )
 
 TEST_CASES_TO_CURRENCY_BZD = (
@@ -690,6 +820,9 @@ TEST_CASES_TO_CURRENCY_BZD = (
     (100.00, 'cien dólares con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta dólares con ochenta y tres céntimos'),
+    (1e6, 'un millón de dólares con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez dólares con cero céntimos'),
+    (1e12, 'un billón de dólares con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_CVE = (
@@ -703,6 +836,9 @@ TEST_CASES_TO_CURRENCY_CVE = (
     (100.00, 'cien escudos con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta escudos con ochenta y tres centavos'),
+    (1e6, 'un millón de escudos con cero centavos'),
+    (12030010, 'doce millones treinta mil diez escudos con cero centavos'),
+    (1e12, 'un billón de escudos con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_CYP = (
@@ -716,6 +852,9 @@ TEST_CASES_TO_CURRENCY_CYP = (
     (100.00, 'cien libras con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta libras con ochenta y tres céntimos'),
+    (1e6, 'un millón de libras con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez libras con cero céntimos'),
+    (1e12, 'un billón de libras con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_DKK = (
@@ -729,6 +868,9 @@ TEST_CASES_TO_CURRENCY_DKK = (
     (100.00, 'cien coronas con cero øre'),
     (4150.83,
         'cuatro mil ciento cincuenta coronas con ochenta y tres øre'),
+    (1e6, 'un millón de coronas con cero øre'),
+    (12030010, 'doce millones treinta mil diez coronas con cero øre'),
+    (1e12, 'un billón de coronas con cero øre'),
 )
 
 TEST_CASES_TO_CURRENCY_DZD = (
@@ -742,6 +884,9 @@ TEST_CASES_TO_CURRENCY_DZD = (
     (100.00, 'cien dinares con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta dinares con ochenta y tres céntimos'),
+    (1e6, 'un millón de dinares con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez dinares con cero céntimos'),
+    (1e12, 'un billón de dinares con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_ECS = (
@@ -755,6 +900,9 @@ TEST_CASES_TO_CURRENCY_ECS = (
     (100.00, 'cien sucres con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta sucres con ochenta y tres centavos'),
+    (1e6, 'un millón de sucres con cero centavos'),
+    (12030010, 'doce millones treinta mil diez sucres con cero centavos'),
+    (1e12, 'un billón de sucres con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_EGP = (
@@ -769,6 +917,9 @@ TEST_CASES_TO_CURRENCY_EGP = (
     (100.00, 'cien libras con cero piastras'),
     (4150.83,
         'cuatro mil ciento cincuenta libras con ochenta y tres piastras'),
+    (1e6, 'un millón de libras con cero piastras'),
+    (12030010, 'doce millones treinta mil diez libras con cero piastras'),
+    (1e12, 'un billón de libras con cero piastras'),
 )
 
 TEST_CASES_TO_CURRENCY_ERN = (
@@ -782,6 +933,9 @@ TEST_CASES_TO_CURRENCY_ERN = (
     (100.00, 'cien nakfas con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta nakfas con ochenta y tres céntimos'),
+    (1e6, 'un millón de nakfas con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez nakfas con cero céntimos'),
+    (1e12, 'un billón de nakfas con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_ETB = (
@@ -795,6 +949,9 @@ TEST_CASES_TO_CURRENCY_ETB = (
     (100.00, 'cien birrs con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta birrs con ochenta y tres céntimos'),
+    (1e6, 'un millón de birrs con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez birrs con cero céntimos'),
+    (1e12, 'un billón de birrs con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_FKP = (
@@ -808,6 +965,9 @@ TEST_CASES_TO_CURRENCY_FKP = (
     (100.00, 'cien libras con cero peniques'),
     (4150.83,
         'cuatro mil ciento cincuenta libras con ochenta y tres peniques'),
+    (1e6, 'un millón de libras con cero peniques'),
+    (12030010, 'doce millones treinta mil diez libras con cero peniques'),
+    (1e12, 'un billón de libras con cero peniques'),
 )
 
 TEST_CASES_TO_CURRENCY_GEL = (
@@ -821,6 +981,9 @@ TEST_CASES_TO_CURRENCY_GEL = (
     (100.00, 'cien laris con cero tetris'),
     (4150.83,
         'cuatro mil ciento cincuenta laris con ochenta y tres tetris'),
+    (1e6, 'un millón de laris con cero tetris'),
+    (12030010, 'doce millones treinta mil diez laris con cero tetris'),
+    (1e12, 'un billón de laris con cero tetris'),
 )
 
 TEST_CASES_TO_CURRENCY_GHS = (
@@ -834,6 +997,9 @@ TEST_CASES_TO_CURRENCY_GHS = (
     (100.00, 'cien cedis con cero pesewas'),
     (4150.83,
         'cuatro mil ciento cincuenta cedis con ochenta y tres pesewas'),
+    (1e6, 'un millón de cedis con cero pesewas'),
+    (12030010, 'doce millones treinta mil diez cedis con cero pesewas'),
+    (1e12, 'un billón de cedis con cero pesewas'),
 )
 
 TEST_CASES_TO_CURRENCY_GMD = (
@@ -847,6 +1013,9 @@ TEST_CASES_TO_CURRENCY_GMD = (
     (100.00, 'cien dalasis con cero bututs'),
     (4150.83,
         'cuatro mil ciento cincuenta dalasis con ochenta y tres bututs'),
+    (1e6, 'un millón de dalasis con cero bututs'),
+    (12030010, 'doce millones treinta mil diez dalasis con cero bututs'),
+    (1e12, 'un billón de dalasis con cero bututs'),
 )
 
 TEST_CASES_TO_CURRENCY_GTQ = (
@@ -860,6 +1029,9 @@ TEST_CASES_TO_CURRENCY_GTQ = (
     (100.00, 'cien quetzales con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta quetzales con ochenta y tres centavos'),
+    (1e6, 'un millón de quetzales con cero centavos'),
+    (12030010, 'doce millones treinta mil diez quetzales con cero centavos'),
+    (1e12, 'un billón de quetzales con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_HNL = (
@@ -873,6 +1045,9 @@ TEST_CASES_TO_CURRENCY_HNL = (
     (100.00, 'cien lempiras con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta lempiras con ochenta y tres centavos'),
+    (1e6, 'un millón de lempiras con cero centavos'),
+    (12030010, 'doce millones treinta mil diez lempiras con cero centavos'),
+    (1e12, 'un billón de lempiras con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_HRK = (
@@ -886,6 +1061,9 @@ TEST_CASES_TO_CURRENCY_HRK = (
     (100.00, 'cien kunas con cero lipas'),
     (4150.83,
         'cuatro mil ciento cincuenta kunas con ochenta y tres lipas'),
+    (1e6, 'un millón de kunas con cero lipas'),
+    (12030010, 'doce millones treinta mil diez kunas con cero lipas'),
+    (1e12, 'un billón de kunas con cero lipas'),
 )
 
 TEST_CASES_TO_CURRENCY_HTG = (
@@ -899,6 +1077,9 @@ TEST_CASES_TO_CURRENCY_HTG = (
     (100.00, 'cien gourdes con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta gourdes con ochenta y tres céntimos'),
+    (1e6, 'un millón de gourdes con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez gourdes con cero céntimos'),
+    (1e12, 'un billón de gourdes con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_IDR = (
@@ -912,6 +1093,9 @@ TEST_CASES_TO_CURRENCY_IDR = (
     (100.00, 'cien rupias con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta rupias con ochenta y tres céntimos'),
+    (1e6, 'un millón de rupias con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez rupias con cero céntimos'),
+    (1e12, 'un billón de rupias con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_ILS = (
@@ -925,6 +1109,9 @@ TEST_CASES_TO_CURRENCY_ILS = (
     (100.00, 'cien séqueles con cero agoras'),
     (4150.83,
         'cuatro mil ciento cincuenta séqueles con ochenta y tres agoras'),
+    (1e6, 'un millón de séqueles con cero agoras'),
+    (12030010, 'doce millones treinta mil diez séqueles con cero agoras'),
+    (1e12, 'un billón de séqueles con cero agoras'),
 )
 
 TEST_CASES_TO_CURRENCY_IQD = (
@@ -938,6 +1125,9 @@ TEST_CASES_TO_CURRENCY_IQD = (
     (100.00, 'cien dinares con cero fils'),
     (4150.83,
         'cuatro mil ciento cincuenta dinares con ochenta y tres fils'),
+    (1e6, 'un millón de dinares con cero fils'),
+    (12030010, 'doce millones treinta mil diez dinares con cero fils'),
+    (1e12, 'un billón de dinares con cero fils'),
 )
 
 TEST_CASES_TO_CURRENCY_IRR = (
@@ -951,6 +1141,9 @@ TEST_CASES_TO_CURRENCY_IRR = (
     (100.00, 'cien riales con cero dinares'),
     (4150.83,
         'cuatro mil ciento cincuenta riales con ochenta y tres dinares'),
+    (1e6, 'un millón de riales con cero dinares'),
+    (12030010, 'doce millones treinta mil diez riales con cero dinares'),
+    (1e12, 'un billón de riales con cero dinares'),
 )
 
 TEST_CASES_TO_CURRENCY_ISK = (
@@ -964,6 +1157,9 @@ TEST_CASES_TO_CURRENCY_ISK = (
     (100.00, 'cien coronas con cero aurar'),
     (4150.83,
         'cuatro mil ciento cincuenta coronas con ochenta y tres aurar'),
+    (1e6, 'un millón de coronas con cero aurar'),
+    (12030010, 'doce millones treinta mil diez coronas con cero aurar'),
+    (1e12, 'un billón de coronas con cero aurar'),
 )
 
 TEST_CASES_TO_CURRENCY_ITL = (
@@ -977,6 +1173,9 @@ TEST_CASES_TO_CURRENCY_ITL = (
     (100.00, 'cien liras con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta liras con ochenta y tres céntimos'),
+    (1e6, 'un millón de liras con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez liras con cero céntimos'),
+    (1e12, 'un billón de liras con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_JOD = (
@@ -990,6 +1189,9 @@ TEST_CASES_TO_CURRENCY_JOD = (
     (100.00, 'cien dinares con cero piastras'),
     (4150.83,
         'cuatro mil ciento cincuenta dinares con ochenta y tres piastras'),
+    (1e6, 'un millón de dinares con cero piastras'),
+    (12030010, 'doce millones treinta mil diez dinares con cero piastras'),
+    (1e12, 'un billón de dinares con cero piastras'),
 )
 
 TEST_CASES_TO_CURRENCY_KES = (
@@ -1003,6 +1205,9 @@ TEST_CASES_TO_CURRENCY_KES = (
     (100.00, 'cien chelines con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta chelines con ochenta y tres céntimos'),
+    (1e6, 'un millón de chelines con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez chelines con cero céntimos'),
+    (1e12, 'un billón de chelines con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_KGS = (
@@ -1016,6 +1221,9 @@ TEST_CASES_TO_CURRENCY_KGS = (
     (100.00, 'cien som con cero tyiyn'),
     (4150.83,
         'cuatro mil ciento cincuenta som con ochenta y tres tyiyn'),
+    (1e6, 'un millón de som con cero tyiyn'),
+    (12030010, 'doce millones treinta mil diez som con cero tyiyn'),
+    (1e12, 'un billón de som con cero tyiyn'),
 )
 
 TEST_CASES_TO_CURRENCY_KHR = (
@@ -1029,6 +1237,9 @@ TEST_CASES_TO_CURRENCY_KHR = (
     (100.00, 'cien rieles con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta rieles con ochenta y tres céntimos'),
+    (1e6, 'un millón de rieles con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez rieles con cero céntimos'),
+    (1e12, 'un billón de rieles con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_KWD = (
@@ -1042,6 +1253,9 @@ TEST_CASES_TO_CURRENCY_KWD = (
     (100.00, 'cien dinares con cero fils'),
     (4150.83,
         'cuatro mil ciento cincuenta dinares con ochenta y tres fils'),
+    (1e6, 'un millón de dinares con cero fils'),
+    (12030010, 'doce millones treinta mil diez dinares con cero fils'),
+    (1e12, 'un billón de dinares con cero fils'),
 )
 
 TEST_CASES_TO_CURRENCY_LAK = (
@@ -1055,6 +1269,9 @@ TEST_CASES_TO_CURRENCY_LAK = (
     (100.00, 'cien kips con cero att'),
     (4150.83,
         'cuatro mil ciento cincuenta kips con ochenta y tres att'),
+    (1e6, 'un millón de kips con cero att'),
+    (12030010, 'doce millones treinta mil diez kips con cero att'),
+    (1e12, 'un billón de kips con cero att'),
 )
 
 TEST_CASES_TO_CURRENCY_LKR = (
@@ -1068,6 +1285,9 @@ TEST_CASES_TO_CURRENCY_LKR = (
     (100.00, 'cien rupias con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta rupias con ochenta y tres céntimos'),
+    (1e6, 'un millón de rupias con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez rupias con cero céntimos'),
+    (1e12, 'un billón de rupias con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_LSL = (
@@ -1081,6 +1301,9 @@ TEST_CASES_TO_CURRENCY_LSL = (
     (100.00, 'cien lotis con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta lotis con ochenta y tres céntimos'),
+    (1e6, 'un millón de lotis con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez lotis con cero céntimos'),
+    (1e12, 'un billón de lotis con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_LTL = (
@@ -1094,6 +1317,9 @@ TEST_CASES_TO_CURRENCY_LTL = (
     (100.00, 'cien litas con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta litas con ochenta y tres céntimos'),
+    (1e6, 'un millón de litas con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez litas con cero céntimos'),
+    (1e12, 'un billón de litas con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_LVL = (
@@ -1107,6 +1333,9 @@ TEST_CASES_TO_CURRENCY_LVL = (
     (100.00, 'cien lats con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta lats con ochenta y tres céntimos'),
+    (1e6, 'un millón de lats con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez lats con cero céntimos'),
+    (1e12, 'un billón de lats con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_LYD = (
@@ -1120,6 +1349,9 @@ TEST_CASES_TO_CURRENCY_LYD = (
     (100.00, 'cien dinares con cero dírhams'),
     (4150.83,
         'cuatro mil ciento cincuenta dinares con ochenta y tres dírhams'),
+    (1e6, 'un millón de dinares con cero dírhams'),
+    (12030010, 'doce millones treinta mil diez dinares con cero dírhams'),
+    (1e12, 'un billón de dinares con cero dírhams'),
 )
 
 TEST_CASES_TO_CURRENCY_MAD = (
@@ -1133,6 +1365,9 @@ TEST_CASES_TO_CURRENCY_MAD = (
     (100.00, 'cien dirhams con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta dirhams con ochenta y tres céntimos'),
+    (1e6, 'un millón de dirhams con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez dirhams con cero céntimos'),
+    (1e12, 'un billón de dirhams con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_MDL = (
@@ -1146,6 +1381,9 @@ TEST_CASES_TO_CURRENCY_MDL = (
     (100.00, 'cien lei con cero bani'),
     (4150.83,
         'cuatro mil ciento cincuenta lei con ochenta y tres bani'),
+    (1e6, 'un millón de lei con cero bani'),
+    (12030010, 'doce millones treinta mil diez lei con cero bani'),
+    (1e12, 'un billón de lei con cero bani'),
 )
 
 TEST_CASES_TO_CURRENCY_MGA = (
@@ -1159,6 +1397,9 @@ TEST_CASES_TO_CURRENCY_MGA = (
     (100.00, 'cien ariaris con cero iraimbilanja'),
     (4150.83,
         'cuatro mil ciento cincuenta ariaris con ochenta y tres iraimbilanja'),
+    (1e6, 'un millón de ariaris con cero iraimbilanja'),
+    (12030010, 'doce millones treinta mil diez ariaris con cero iraimbilanja'),
+    (1e12, 'un billón de ariaris con cero iraimbilanja'),
 )
 
 TEST_CASES_TO_CURRENCY_MKD = (
@@ -1172,6 +1413,9 @@ TEST_CASES_TO_CURRENCY_MKD = (
     (100.00, 'cien denares con cero denis'),
     (4150.83,
         'cuatro mil ciento cincuenta denares con ochenta y tres denis'),
+    (1e6, 'un millón de denares con cero denis'),
+    (12030010, 'doce millones treinta mil diez denares con cero denis'),
+    (1e12, 'un billón de denares con cero denis'),
 )
 
 TEST_CASES_TO_CURRENCY_MMK = (
@@ -1185,6 +1429,9 @@ TEST_CASES_TO_CURRENCY_MMK = (
     (100.00, 'cien kiats con cero pyas'),
     (4150.83,
         'cuatro mil ciento cincuenta kiats con ochenta y tres pyas'),
+    (1e6, 'un millón de kiats con cero pyas'),
+    (12030010, 'doce millones treinta mil diez kiats con cero pyas'),
+    (1e12, 'un billón de kiats con cero pyas'),
 )
 
 TEST_CASES_TO_CURRENCY_MNT = (
@@ -1198,6 +1445,9 @@ TEST_CASES_TO_CURRENCY_MNT = (
     (100.00, 'cien tugriks con cero möngö'),
     (4150.83,
         'cuatro mil ciento cincuenta tugriks con ochenta y tres möngö'),
+    (1e6, 'un millón de tugriks con cero möngö'),
+    (12030010, 'doce millones treinta mil diez tugriks con cero möngö'),
+    (1e12, 'un billón de tugriks con cero möngö'),
 )
 
 TEST_CASES_TO_CURRENCY_MOP = (
@@ -1211,6 +1461,9 @@ TEST_CASES_TO_CURRENCY_MOP = (
     (100.00, 'cien patacas con cero avos'),
     (4150.83,
         'cuatro mil ciento cincuenta patacas con ochenta y tres avos'),
+    (1e6, 'un millón de patacas con cero avos'),
+    (12030010, 'doce millones treinta mil diez patacas con cero avos'),
+    (1e12, 'un billón de patacas con cero avos'),
 )
 
 TEST_CASES_TO_CURRENCY_MRO = (
@@ -1224,6 +1477,9 @@ TEST_CASES_TO_CURRENCY_MRO = (
     (100.00, 'cien ouguiyas con cero khoums'),
     (4150.83,
         'cuatro mil ciento cincuenta ouguiyas con ochenta y tres khoums'),
+    (1e6, 'un millón de ouguiyas con cero khoums'),
+    (12030010, 'doce millones treinta mil diez ouguiyas con cero khoums'),
+    (1e12, 'un billón de ouguiyas con cero khoums'),
 )
 
 TEST_CASES_TO_CURRENCY_MRU = (
@@ -1237,6 +1493,9 @@ TEST_CASES_TO_CURRENCY_MRU = (
     (100.00, 'cien ouguiyas con cero khoums'),
     (4150.83,
         'cuatro mil ciento cincuenta ouguiyas con ochenta y tres khoums'),
+    (1e6, 'un millón de ouguiyas con cero khoums'),
+    (12030010, 'doce millones treinta mil diez ouguiyas con cero khoums'),
+    (1e12, 'un billón de ouguiyas con cero khoums'),
 )
 
 TEST_CASES_TO_CURRENCY_MUR = (
@@ -1250,6 +1509,9 @@ TEST_CASES_TO_CURRENCY_MUR = (
     (100.00, 'cien rupias con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta rupias con ochenta y tres céntimos'),
+    (1e6, 'un millón de rupias con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez rupias con cero céntimos'),
+    (1e12, 'un billón de rupias con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_MVR = (
@@ -1263,6 +1525,9 @@ TEST_CASES_TO_CURRENCY_MVR = (
     (100.00, 'cien rufiyaas con cero laari'),
     (4150.83,
         'cuatro mil ciento cincuenta rufiyaas con ochenta y tres laari'),
+    (1e6, 'un millón de rufiyaas con cero laari'),
+    (12030010, 'doce millones treinta mil diez rufiyaas con cero laari'),
+    (1e12, 'un billón de rufiyaas con cero laari'),
 )
 
 TEST_CASES_TO_CURRENCY_MWK = (
@@ -1276,6 +1541,9 @@ TEST_CASES_TO_CURRENCY_MWK = (
     (100.00, 'cien kuachas con cero tambalas'),
     (4150.83,
         'cuatro mil ciento cincuenta kuachas con ochenta y tres tambalas'),
+    (1e6, 'un millón de kuachas con cero tambalas'),
+    (12030010, 'doce millones treinta mil diez kuachas con cero tambalas'),
+    (1e12, 'un billón de kuachas con cero tambalas'),
 )
 
 TEST_CASES_TO_CURRENCY_MYR = (
@@ -1289,6 +1557,9 @@ TEST_CASES_TO_CURRENCY_MYR = (
     (100.00, 'cien ringgit con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta ringgit con ochenta y tres céntimos'),
+    (1e6, 'un millón de ringgit con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez ringgit con cero céntimos'),
+    (1e12, 'un billón de ringgit con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_MZN = (
@@ -1302,6 +1573,9 @@ TEST_CASES_TO_CURRENCY_MZN = (
     (100.00, 'cien metical con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta metical con ochenta y tres centavos'),
+    (1e6, 'un millón de metical con cero centavos'),
+    (12030010, 'doce millones treinta mil diez metical con cero centavos'),
+    (1e12, 'un billón de metical con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_NGN = (
@@ -1315,6 +1589,9 @@ TEST_CASES_TO_CURRENCY_NGN = (
     (100.00, 'cien nairas con cero kobo'),
     (4150.83,
         'cuatro mil ciento cincuenta nairas con ochenta y tres kobo'),
+    (1e6, 'un millón de nairas con cero kobo'),
+    (12030010, 'doce millones treinta mil diez nairas con cero kobo'),
+    (1e12, 'un billón de nairas con cero kobo'),
 )
 
 TEST_CASES_TO_CURRENCY_NPR = (
@@ -1328,6 +1605,9 @@ TEST_CASES_TO_CURRENCY_NPR = (
     (100.00, 'cien rupias con cero paisas'),
     (4150.83,
         'cuatro mil ciento cincuenta rupias con ochenta y tres paisas'),
+    (1e6, 'un millón de rupias con cero paisas'),
+    (12030010, 'doce millones treinta mil diez rupias con cero paisas'),
+    (1e12, 'un billón de rupias con cero paisas'),
 )
 
 TEST_CASES_TO_CURRENCY_OMR = (
@@ -1341,6 +1621,9 @@ TEST_CASES_TO_CURRENCY_OMR = (
     (100.00, 'cien riales con cero baisa'),
     (4150.83,
         'cuatro mil ciento cincuenta riales con ochenta y tres baisa'),
+    (1e6, 'un millón de riales con cero baisa'),
+    (12030010, 'doce millones treinta mil diez riales con cero baisa'),
+    (1e12, 'un billón de riales con cero baisa'),
 )
 
 TEST_CASES_TO_CURRENCY_PAB = (
@@ -1354,6 +1637,9 @@ TEST_CASES_TO_CURRENCY_PAB = (
     (100.00, 'cien balboas con cero centésimos'),
     (4150.83,
         'cuatro mil ciento cincuenta balboas con ochenta y tres centésimos'),
+    (1e6, 'un millón de balboas con cero centésimos'),
+    (12030010, 'doce millones treinta mil diez balboas con cero centésimos'),
+    (1e12, 'un billón de balboas con cero centésimos'),
 )
 
 TEST_CASES_TO_CURRENCY_PGK = (
@@ -1367,6 +1653,9 @@ TEST_CASES_TO_CURRENCY_PGK = (
     (100.00, 'cien kinas con cero toea'),
     (4150.83,
         'cuatro mil ciento cincuenta kinas con ochenta y tres toea'),
+    (1e6, 'un millón de kinas con cero toea'),
+    (12030010, 'doce millones treinta mil diez kinas con cero toea'),
+    (1e12, 'un billón de kinas con cero toea'),
 )
 
 TEST_CASES_TO_CURRENCY_PKR = (
@@ -1380,6 +1669,9 @@ TEST_CASES_TO_CURRENCY_PKR = (
     (100.00, 'cien rupias con cero paisas'),
     (4150.83,
         'cuatro mil ciento cincuenta rupias con ochenta y tres paisas'),
+    (1e6, 'un millón de rupias con cero paisas'),
+    (12030010, 'doce millones treinta mil diez rupias con cero paisas'),
+    (1e12, 'un billón de rupias con cero paisas'),
 )
 
 TEST_CASES_TO_CURRENCY_PLZ = (
@@ -1393,6 +1685,9 @@ TEST_CASES_TO_CURRENCY_PLZ = (
     (100.00, 'cien zlotys con cero groszy'),
     (4150.83,
         'cuatro mil ciento cincuenta zlotys con ochenta y tres groszy'),
+    (1e6, 'un millón de zlotys con cero groszy'),
+    (12030010, 'doce millones treinta mil diez zlotys con cero groszy'),
+    (1e12, 'un billón de zlotys con cero groszy'),
 )
 
 TEST_CASES_TO_CURRENCY_PYG = (
@@ -1406,6 +1701,9 @@ TEST_CASES_TO_CURRENCY_PYG = (
     (100.00, 'cien guaranís con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta guaranís con ochenta y tres céntimos'),
+    (1e6, 'un millón de guaranís con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez guaranís con cero céntimos'),
+    (1e12, 'un billón de guaranís con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_QAR = (
@@ -1419,6 +1717,9 @@ TEST_CASES_TO_CURRENCY_QAR = (
     (100.00, 'cien riales con cero dírhams'),
     (4150.83,
         'cuatro mil ciento cincuenta riales con ochenta y tres dírhams'),
+    (1e6, 'un millón de riales con cero dírhams'),
+    (12030010, 'doce millones treinta mil diez riales con cero dírhams'),
+    (1e12, 'un billón de riales con cero dírhams'),
 )
 
 TEST_CASES_TO_CURRENCY_RSD = (
@@ -1432,6 +1733,9 @@ TEST_CASES_TO_CURRENCY_RSD = (
     (100.00, 'cien dinares con cero para'),
     (4150.83,
         'cuatro mil ciento cincuenta dinares con ochenta y tres para'),
+    (1e6, 'un millón de dinares con cero para'),
+    (12030010, 'doce millones treinta mil diez dinares con cero para'),
+    (1e12, 'un billón de dinares con cero para'),
 )
 
 TEST_CASES_TO_CURRENCY_RUR = (
@@ -1445,6 +1749,9 @@ TEST_CASES_TO_CURRENCY_RUR = (
     (100.00, 'cien rublos con cero kopeks'),
     (4150.83,
         'cuatro mil ciento cincuenta rublos con ochenta y tres kopeks'),
+    (1e6, 'un millón de rublos con cero kopeks'),
+    (12030010, 'doce millones treinta mil diez rublos con cero kopeks'),
+    (1e12, 'un billón de rublos con cero kopeks'),
 )
 
 TEST_CASES_TO_CURRENCY_SAR = (
@@ -1458,6 +1765,9 @@ TEST_CASES_TO_CURRENCY_SAR = (
     (100.00, 'cien riales con cero halalas'),
     (4150.83,
         'cuatro mil ciento cincuenta riales con ochenta y tres halalas'),
+    (1e6, 'un millón de riales con cero halalas'),
+    (12030010, 'doce millones treinta mil diez riales con cero halalas'),
+    (1e12, 'un billón de riales con cero halalas'),
 )
 
 TEST_CASES_TO_CURRENCY_SCR = (
@@ -1471,6 +1781,9 @@ TEST_CASES_TO_CURRENCY_SCR = (
     (100.00, 'cien rupias con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta rupias con ochenta y tres céntimos'),
+    (1e6, 'un millón de rupias con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez rupias con cero céntimos'),
+    (1e12, 'un billón de rupias con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_SHP = (
@@ -1484,6 +1797,9 @@ TEST_CASES_TO_CURRENCY_SHP = (
     (100.00, 'cien libras con cero peniques'),
     (4150.83,
         'cuatro mil ciento cincuenta libras con ochenta y tres peniques'),
+    (1e6, 'un millón de libras con cero peniques'),
+    (12030010, 'doce millones treinta mil diez libras con cero peniques'),
+    (1e12, 'un billón de libras con cero peniques'),
 )
 
 TEST_CASES_TO_CURRENCY_SKK = (
@@ -1497,6 +1813,9 @@ TEST_CASES_TO_CURRENCY_SKK = (
     (100.00, 'cien coronas con cero haliers'),
     (4150.83,
         'cuatro mil ciento cincuenta coronas con ochenta y tres haliers'),
+    (1e6, 'un millón de coronas con cero haliers'),
+    (12030010, 'doce millones treinta mil diez coronas con cero haliers'),
+    (1e12, 'un billón de coronas con cero haliers'),
 )
 
 TEST_CASES_TO_CURRENCY_SLL = (
@@ -1510,6 +1829,9 @@ TEST_CASES_TO_CURRENCY_SLL = (
     (100.00, 'cien leonas con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta leonas con ochenta y tres céntimos'),
+    (1e6, 'un millón de leonas con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez leonas con cero céntimos'),
+    (1e12, 'un billón de leonas con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_STD = (
@@ -1523,6 +1845,9 @@ TEST_CASES_TO_CURRENCY_STD = (
     (100.00, 'cien dobras con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta dobras con ochenta y tres céntimos'),
+    (1e6, 'un millón de dobras con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez dobras con cero céntimos'),
+    (1e12, 'un billón de dobras con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_SVC = (
@@ -1536,6 +1861,9 @@ TEST_CASES_TO_CURRENCY_SVC = (
     (100.00, 'cien colones con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta colones con ochenta y tres centavos'),
+    (1e6, 'un millón de colones con cero centavos'),
+    (12030010, 'doce millones treinta mil diez colones con cero centavos'),
+    (1e12, 'un billón de colones con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_SZL = (
@@ -1549,6 +1877,9 @@ TEST_CASES_TO_CURRENCY_SZL = (
     (100.00, 'cien emalangeni con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta emalangeni con ochenta y tres céntimos'),
+    (1e6, 'un millón de emalangeni con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez emalangeni con cero céntimos'),
+    (1e12, 'un billón de emalangeni con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_TJS = (
@@ -1562,6 +1893,9 @@ TEST_CASES_TO_CURRENCY_TJS = (
     (100.00, 'cien somonis con cero dirames'),
     (4150.83,
         'cuatro mil ciento cincuenta somonis con ochenta y tres dirames'),
+    (1e6, 'un millón de somonis con cero dirames'),
+    (12030010, 'doce millones treinta mil diez somonis con cero dirames'),
+    (1e12, 'un billón de somonis con cero dirames'),
 )
 
 TEST_CASES_TO_CURRENCY_TMT = (
@@ -1575,6 +1909,9 @@ TEST_CASES_TO_CURRENCY_TMT = (
     (100.00, 'cien manat con cero tenge'),
     (4150.83,
         'cuatro mil ciento cincuenta manat con ochenta y tres tenge'),
+    (1e6, 'un millón de manat con cero tenge'),
+    (12030010, 'doce millones treinta mil diez manat con cero tenge'),
+    (1e12, 'un billón de manat con cero tenge'),
 )
 
 TEST_CASES_TO_CURRENCY_TND = (
@@ -1588,6 +1925,9 @@ TEST_CASES_TO_CURRENCY_TND = (
     (100.00, 'cien dinares con cero milésimos'),
     (4150.83,
         'cuatro mil ciento cincuenta dinares con ochenta y tres milésimos'),
+    (1e6, 'un millón de dinares con cero milésimos'),
+    (12030010, 'doce millones treinta mil diez dinares con cero milésimos'),
+    (1e12, 'un billón de dinares con cero milésimos'),
 )
 
 TEST_CASES_TO_CURRENCY_TOP = (
@@ -1601,6 +1941,9 @@ TEST_CASES_TO_CURRENCY_TOP = (
     (100.00, 'cien paangas con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta paangas con ochenta y tres céntimos'),
+    (1e6, 'un millón de paangas con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez paangas con cero céntimos'),
+    (1e12, 'un billón de paangas con cero céntimos'),
 )
 
 wordamount = "{} {}".format("cuatro mil ciento cincuenta",
@@ -1616,6 +1959,9 @@ TEST_CASES_TO_CURRENCY_TWD = (
     (350.90, 'trescientos cincuenta nuevos dólares con noventa céntimos'),
     (100.00, 'cien nuevos dólares con cero céntimos'),
     (4150.83, wordamount),
+    (1e6, 'un millón de nuevos dólares con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez nuevos dólares con cero céntimos'),
+    (1e12, 'un billón de nuevos dólares con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_TZS = (
@@ -1629,6 +1975,9 @@ TEST_CASES_TO_CURRENCY_TZS = (
     (100.00, 'cien chelines con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta chelines con ochenta y tres céntimos'),
+    (1e6, 'un millón de chelines con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez chelines con cero céntimos'),
+    (1e12, 'un billón de chelines con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_UAG = (
@@ -1642,6 +1991,9 @@ TEST_CASES_TO_CURRENCY_UAG = (
     (100.00, 'cien hryvnias con cero kopiykas'),
     (4150.83,
         'cuatro mil ciento cincuenta hryvnias con ochenta y tres kopiykas'),
+    (1e6, 'un millón de hryvnias con cero kopiykas'),
+    (12030010, 'doce millones treinta mil diez hryvnias con cero kopiykas'),
+    (1e12, 'un billón de hryvnias con cero kopiykas'),
 )
 
 TEST_CASES_TO_CURRENCY_UGX = (
@@ -1655,6 +2007,9 @@ TEST_CASES_TO_CURRENCY_UGX = (
     (100.00, 'cien chelines con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta chelines con ochenta y tres céntimos'),
+    (1e6, 'un millón de chelines con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez chelines con cero céntimos'),
+    (1e12, 'un billón de chelines con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_UYU = (
@@ -1668,6 +2023,9 @@ TEST_CASES_TO_CURRENCY_UYU = (
     (100.00, 'cien pesos con cero centésimos'),
     (4150.83,
         'cuatro mil ciento cincuenta pesos con ochenta y tres centésimos'),
+    (1e6, 'un millón de pesos con cero centésimos'),
+    (12030010, 'doce millones treinta mil diez pesos con cero centésimos'),
+    (1e12, 'un billón de pesos con cero centésimos'),
 )
 
 TEST_CASES_TO_CURRENCY_UZS = (
@@ -1681,6 +2039,9 @@ TEST_CASES_TO_CURRENCY_UZS = (
     (100.00, 'cien sum con cero tiyin'),
     (4150.83,
         'cuatro mil ciento cincuenta sum con ochenta y tres tiyin'),
+    (1e6, 'un millón de sum con cero tiyin'),
+    (12030010, 'doce millones treinta mil diez sum con cero tiyin'),
+    (1e12, 'un billón de sum con cero tiyin'),
 )
 
 wordamount = "{} {}".format("cuatro mil ciento cincuenta",
@@ -1696,6 +2057,9 @@ TEST_CASES_TO_CURRENCY_VEF = (
     (350.90, 'trescientos cincuenta bolívares fuertes con noventa céntimos'),
     (100.00, 'cien bolívares fuertes con cero céntimos'),
     (4150.83, wordamount),
+    (1e6, 'un millón de bolívares fuertes con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez bolívares fuertes con cero céntimos'),
+    (1e12, 'un billón de bolívares fuertes con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_VND = (
@@ -1709,6 +2073,9 @@ TEST_CASES_TO_CURRENCY_VND = (
     (100.00, 'cien dongs con cero xu'),
     (4150.83,
         'cuatro mil ciento cincuenta dongs con ochenta y tres xu'),
+    (1e6, 'un millón de dongs con cero xu'),
+    (12030010, 'doce millones treinta mil diez dongs con cero xu'),
+    (1e12, 'un billón de dongs con cero xu'),
 )
 
 TEST_CASES_TO_CURRENCY_VUV = (
@@ -1722,6 +2089,9 @@ TEST_CASES_TO_CURRENCY_VUV = (
     (100.00, 'cien vatu con cero nenhum'),
     (4150.83,
         'cuatro mil ciento cincuenta vatu con ochenta y tres nenhum'),
+    (1e6, 'un millón de vatu con cero nenhum'),
+    (12030010, 'doce millones treinta mil diez vatu con cero nenhum'),
+    (1e12, 'un billón de vatu con cero nenhum'),
 )
 
 TEST_CASES_TO_CURRENCY_WST = (
@@ -1735,6 +2105,9 @@ TEST_CASES_TO_CURRENCY_WST = (
     (100.00, 'cien tala con cero centavos'),
     (4150.83,
         'cuatro mil ciento cincuenta tala con ochenta y tres centavos'),
+    (1e6, 'un millón de tala con cero centavos'),
+    (12030010, 'doce millones treinta mil diez tala con cero centavos'),
+    (1e12, 'un billón de tala con cero centavos'),
 )
 
 TEST_CASES_TO_CURRENCY_XAF = (
@@ -1748,6 +2121,9 @@ TEST_CASES_TO_CURRENCY_XAF = (
     (100.00, 'cien francos CFA con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta francos CFA con ochenta y tres céntimos'),
+    (1e6, 'un millón de francos CFA con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez francos CFA con cero céntimos'),
+    (1e12, 'un billón de francos CFA con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_XPF = (
@@ -1761,6 +2137,9 @@ TEST_CASES_TO_CURRENCY_XPF = (
     (100.00, 'cien francos CFP con cero céntimos'),
     (4150.83,
         'cuatro mil ciento cincuenta francos CFP con ochenta y tres céntimos'),
+    (1e6, 'un millón de francos CFP con cero céntimos'),
+    (12030010, 'doce millones treinta mil diez francos CFP con cero céntimos'),
+    (1e12, 'un billón de francos CFP con cero céntimos'),
 )
 
 TEST_CASES_TO_CURRENCY_YER = (
@@ -1774,6 +2153,9 @@ TEST_CASES_TO_CURRENCY_YER = (
     (100.00, 'cien riales con cero fils'),
     (4150.83,
         'cuatro mil ciento cincuenta riales con ochenta y tres fils'),
+    (1e6, 'un millón de riales con cero fils'),
+    (12030010, 'doce millones treinta mil diez riales con cero fils'),
+    (1e12, 'un billón de riales con cero fils'),
 )
 
 TEST_CASES_TO_CURRENCY_YUM = (
@@ -1787,6 +2169,9 @@ TEST_CASES_TO_CURRENCY_YUM = (
     (100.00, 'cien dinares con cero para'),
     (4150.83,
         'cuatro mil ciento cincuenta dinares con ochenta y tres para'),
+    (1e6, 'un millón de dinares con cero para'),
+    (12030010, 'doce millones treinta mil diez dinares con cero para'),
+    (1e12, 'un billón de dinares con cero para'),
 )
 
 TEST_CASES_TO_CURRENCY_ZMW = (
@@ -1800,6 +2185,9 @@ TEST_CASES_TO_CURRENCY_ZMW = (
     (100.00, 'cien kwachas con cero ngwee'),
     (4150.83,
         'cuatro mil ciento cincuenta kwachas con ochenta y tres ngwee'),
+    (1e6, 'un millón de kwachas con cero ngwee'),
+    (12030010, 'doce millones treinta mil diez kwachas con cero ngwee'),
+    (1e12, 'un billón de kwachas con cero ngwee'),
 )
 
 TEST_CASES_TO_CURRENCY_ZRZ = (
@@ -1813,6 +2201,9 @@ TEST_CASES_TO_CURRENCY_ZRZ = (
     (100.00, 'cien zaires con cero makuta'),
     (4150.83,
         'cuatro mil ciento cincuenta zaires con ochenta y tres makuta'),
+    (1e6, 'un millón de zaires con cero makuta'),
+    (12030010, 'doce millones treinta mil diez zaires con cero makuta'),
+    (1e12, 'un billón de zaires con cero makuta'),
 )
 
 
