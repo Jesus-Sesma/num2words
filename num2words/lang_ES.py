@@ -415,6 +415,9 @@ class Num2Word_ES(Num2Word_EU):
     ) -> str:
         """Handle special case for couting numbers above million.
 
+        If all the digits below million are zeroes, we use `de` (of)
+        preposition before the currency name.
+
         Parameters
         ----------
         value: float
@@ -424,15 +427,26 @@ class Num2Word_ES(Num2Word_EU):
         words: str
             A string of the representation into words of the numeric value.
 
-        If all the digits below million are zeroes, we use `de` (of)
-        preposition before the currency name.
-        
+        Returns
+        -------
+        str
+            The fixed representation into words of the numeric value.
+
+        Notes
+        -----
         e.g.:
             - 1.0000.000: un millón `de` euros.
             - 14.000.000: catorce millones `de` euros.
             - 112.030.010: ciento doce millones trenta mil diez `` euros.
             - 1.000.000.000: mil millones `de` euros.
             - 1.000.000.000.000 un billón `de` euros.
+
+        References
+        ----------
+        .. [1] Real Academia Española y Asociación de Academias de la Lengua
+           Española, Diccionario panhispánico de dudas (DPD), 2.ª edición,
+           https://www.rae.es/dpd/n%C3%BAmeros#S1590507320957705527
+        
         
         """
         if value >= 1e6 and not value % 1e6:
