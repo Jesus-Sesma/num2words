@@ -17,8 +17,8 @@
 
 from __future__ import division, print_function, unicode_literals
 
-from decimal import Decimal
 import math
+from decimal import Decimal
 
 from .lang_EU import Num2Word_EU
 
@@ -411,7 +411,6 @@ class Num2Word_ES(Num2Word_EU):
 
         return result
 
-
     def _handle_million_currency(
         self, value: Decimal, currency: str, words: str
     ) -> str:
@@ -448,12 +447,11 @@ class Num2Word_ES(Num2Word_EU):
         .. [1] Real Academia Española y Asociación de Academias de la Lengua
            Española, Diccionario panhispánico de dudas (DPD), 2.ª edición,
            https://www.rae.es/dpd/n%C3%BAmeros#S1590507320957705527
-        
-        
+
         """
         if value >= 1e6 and not value % Decimal(1e6):
             currency_form = self.CURRENCY_FORMS[currency][0][1]  # plural
-            before, after  = words.split(currency_form, 1)
+            before, after = words.split(currency_form, 1)
             return f"{before[:-1]} de {currency_form} {after[1:]}"
-        
+
         return words
