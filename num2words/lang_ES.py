@@ -17,6 +17,7 @@
 
 from __future__ import division, print_function, unicode_literals
 
+from decimal import Decimal
 import math
 
 from .lang_EU import Num2Word_EU
@@ -354,8 +355,9 @@ class Num2Word_ES(Num2Word_EU):
 
     def to_currency(self, val, currency='EUR', cents=True, separator=' con',
                     adjective=False):
+        val = Decimal(val)
         result = super(Num2Word_ES, self).to_currency(
-            float(val), currency=currency, cents=cents, separator=separator,
+            val, currency=currency, cents=cents, separator=separator,
             adjective=adjective)
         # Handle exception: In Spanish it's "un euro" and not "uno euro",
         # except in these currencies, where it's "una": leona, corona,
@@ -411,7 +413,7 @@ class Num2Word_ES(Num2Word_EU):
 
 
     def _handle_million_currency(
-        self, value: float, currency: str, words: str
+        self, value: Decimal, currency: str, words: str
     ) -> str:
         """Handle special case for couting numbers above million.
 
@@ -420,7 +422,7 @@ class Num2Word_ES(Num2Word_EU):
 
         Parameters
         ----------
-        value: float
+        value: Decimal
             The numeric value.
         currency: str
             A string of the ISO-4217 currency code.
@@ -449,7 +451,7 @@ class Num2Word_ES(Num2Word_EU):
         
         
         """
-        if value >= 1e6 and not value % 1e6:
+        if value >= 1e6 and not value % Decimal(1e6):
             currency_form = self.CURRENCY_FORMS[currency][0][1]  # plural
             before, after  = words.split(currency_form, 1)
             return f"{before[:-1]} de {currency_form} {after[1:]}"
