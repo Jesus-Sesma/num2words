@@ -278,14 +278,18 @@ class Num2Word_ES(Num2Word_EU):
         if cnum == 1:
             if nnum < 1000000:
                 return next
+
             ctext = "un"
+        
         elif cnum == 100 and not nnum % 1000 == 0:
-            ctext += "t" + self.gender_stem
+            ctext += f"t{self.gender_stem}"
 
         if nnum < cnum:
             if cnum < 100:
-                return "%s y %s" % (ctext, ntext), cnum + nnum
-            return "%s %s" % (ctext, ntext), cnum + nnum
+                return f"{ctext} y {ntext}", cnum + nnum
+
+            return f"{ctext} {ntext}", cnum + nnum
+
         elif (not nnum % 1000000) and cnum > 1:
             ntext = ntext[:-3] + "lones"
 
@@ -297,9 +301,9 @@ class Num2Word_ES(Num2Word_EU):
                 ctext = "sete"
             elif cnum == 9:
                 ctext = "nove"
-            ntext += "t" + self.gender_stem + "s"
+            ntext += f"t{self.gender_stem}s"
         else:
-            ntext = " " + ntext
+            ntext = f" {ntext}"
 
         return (ctext + ntext, cnum * nnum)
 
