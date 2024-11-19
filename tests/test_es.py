@@ -81,6 +81,11 @@ TEST_CASES_CARDINAL = (
     (1000001, 'un millón uno'),
     (4000000, 'cuatro millones'),
     (10000000000000, 'diez billones'),
+    (
+        51081341761901,
+        'cincuenta y un billones ochenta y un mil trescientos cuarenta y un '
+        'millones setecientos sesenta y un mil novecientos uno'
+    ),
     (100000000000000, 'cien billones'),
     (1000000000000000000, 'un trillón'),
     (1000000000000000000000, 'mil trillones'),
@@ -125,7 +130,6 @@ TEST_CASES_TO_CURRENCY = (
     (1e6, 'un millón de euros con cero céntimos'),
     (12030010, 'doce millones treinta mil diez euros con cero céntimos'),
     (1e12, 'un billón de euros con cero céntimos'),
-    
 )
 
 TEST_CASES_TO_CURRENCY_ESP = (
@@ -1960,7 +1964,10 @@ TEST_CASES_TO_CURRENCY_TWD = (
     (100.00, 'cien nuevos dólares con cero céntimos'),
     (4150.83, wordamount),
     (1e6, 'un millón de nuevos dólares con cero céntimos'),
-    (12030010, 'doce millones treinta mil diez nuevos dólares con cero céntimos'),
+    (
+        12030010,
+        'doce millones treinta mil diez nuevos dólares con cero céntimos'
+    ),
     (1e12, 'un billón de nuevos dólares con cero céntimos'),
 )
 
@@ -2058,7 +2065,10 @@ TEST_CASES_TO_CURRENCY_VEF = (
     (100.00, 'cien bolívares fuertes con cero céntimos'),
     (4150.83, wordamount),
     (1e6, 'un millón de bolívares fuertes con cero céntimos'),
-    (12030010, 'doce millones treinta mil diez bolívares fuertes con cero céntimos'),
+    (
+        12030010,
+        'doce millones treinta mil diez bolívares fuertes con cero céntimos'
+    ),
     (1e12, 'un billón de bolívares fuertes con cero céntimos'),
 )
 

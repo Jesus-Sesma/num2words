@@ -284,6 +284,9 @@ class Num2Word_ES(Num2Word_EU):
         elif cnum == 100 and not nnum % 1000 == 0:
             ctext += f"t{self.gender_stem}"
 
+        elif "uno" in ctext and nnum % 1000:
+            ctext = ctext.replace("uno", "un")
+
         if nnum < cnum:
             if cnum < 100:
                 return f"{ctext} y {ntext}", cnum + nnum
